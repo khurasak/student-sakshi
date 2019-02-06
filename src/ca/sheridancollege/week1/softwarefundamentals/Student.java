@@ -16,6 +16,26 @@ public class Student {
 
         private String email;
 
+    private boolean partTime;
+
+    /**
+     * Get the value of partTime
+     *
+     * @return the value of partTime
+     */
+    public boolean isPartTime() {
+        return partTime;
+    }
+
+    /**
+     * Set the value of partTime
+     *
+     * @param partTime new value of partTime
+     */
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
+    }
+
     /**
      * Get the value of email
      *
@@ -23,7 +43,7 @@ public class Student {
      */
     public String getEmail() {
         return email;
-        System.out.println(" email is:");
+     
     }
 
     /**
@@ -70,6 +90,13 @@ public class Student {
     }
 
     /**
+   
+    }
+
+    /**
+    
+    }
+
      * Set the value of ID
      *
      * @param ID new value of ID
