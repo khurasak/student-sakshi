@@ -16,6 +16,26 @@ public class Student {
 
         private String email;
 
+    private boolean first;
+
+    /**
+     * Get the value of first
+     *
+     * @return the value of first
+     */
+    public boolean isFirst() {
+        return first;
+    }
+
+    /**
+     * Set the value of first
+     *
+     * @param first new value of first
+     */
+    public void setFirst(boolean first) {
+        this.first = first;
+    }
+
     private boolean partTime;
 
     /**
