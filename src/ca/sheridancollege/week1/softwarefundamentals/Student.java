@@ -23,6 +23,7 @@ public class Student {
      */
     public String getEmail() {
         return email;
+        System.out.println(" email is:");
     }
 
     /**
